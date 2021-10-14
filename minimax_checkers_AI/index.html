@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="scripts/checkers-engine.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<h1 class="title"> Checkers World</h1>
+
+	<button class="restart" style='cursor: pointer;' onclick="startGame({x: 0, y: 0}, 70, boardCanvas);">Start New
+		Game</button>
+	<svg id="checkersBoard" width="560" height="560" class="board" style="float:right; margin-left: 50%;"></svg>
+	<div class="backs"></div>
+	<img src="./img/human.jpeg" alt="human" class="human">
+	<img src="./img/ai.jpeg" alt="ai" class="ai">
+	<button class="restart random" style='cursor: pointer;' onclick="RandomButton()">Random
+		Game</button>
+	<button class="restart mini" style='cursor: pointer;' onclick="MiniMaxB()">Mini
+		Max</button>
+
+
+	<script type="text/javascript">
+		var boardCanvas = d3.select("#checkersBoard");
+		startGame({
+			x: 0,
+			y: 0
+		}, 70, boardCanvas);
+	</script>
+</body>
+
+</html>
