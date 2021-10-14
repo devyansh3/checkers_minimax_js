@@ -1,0 +1,1 @@
+# checkers_minimax_js
