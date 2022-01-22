@@ -41,8 +41,9 @@
     height: 3rem;
     width: 10rem;
     border-radius: 3px;
-    top: 90%;
+    top: 10%;
     left: 23%;
+    margin-top: 20px;
 }
 
 .backs {
@@ -91,6 +92,17 @@
     background: none;
 }
 
+.footer{
+    top: 92%;
+    position: absolute;
+    left: 20%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 3px;
+    font-weight: 700;
+    
+}
+
 .ai {
     position: absolute;
     top: 60%;
@@ -106,11 +118,56 @@
     left: 15%;
     background: none;
 }
+.easy{
+    left: 59%;
+    background: #334756;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 800;
+    top: 87%;
+    
+}
+
+.hard{
+    left: 76%;
+    background: #334756;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 800;
+    top: 87%;
+
+}
 
 .random {
     left: 55%;
+    background: #F0A500;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 800;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3px;
+    top: 92%;   
 }
 
+.restart:hover{
+    background: orangered;
+}
+.random:hover{
+    background: orangered;
+}
+
+.mini:hover{
+    background: orangered;
+}
 .mini {
     left: 74%;
+    background: #F0A500;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 800;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3px;
+    top: 92%;
 }
